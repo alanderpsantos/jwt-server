@@ -1,0 +1,33 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWxhbmRlciIsImlhdCI6MTc0NjUyMzQ1OCwiZXhwIjoxNzQ2NTIzNDg4fQ.hjxuL24eJkCSshP7xgMZhRX-KfpTNJh2eM-yc-xutkc
+
+###
+
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWxhbmRlciIsImlhdCI6MTc0NjUyMzQyMH0.9YBwyusC4OvgiChpkM7-L9OJa8mq5VVMtSrSwpJ0vns"
+}
+
+
+###
+
+
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWxhbmRlciIsImlhdCI6MTc0NjUyMzQyMH0.9YBwyusC4OvgiChpkM7-L9OJa8mq5VVMtSrSwpJ0vns"
+}
+
+
+###
+
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Alander"
+}

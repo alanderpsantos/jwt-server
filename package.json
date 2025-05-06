@@ -1,0 +1,30 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "description": "JWT server",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "devStartAuth": "nodemon authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanderpsantos/jwt-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanderpsantos/jwt-server/issues"
+  },
+  "homepage": "https://github.com/alanderpsantos/jwt-server#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
